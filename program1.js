@@ -35,25 +35,7 @@ const getTotalIsles = function (grid) {
     }
 
     return islandCount;
-}
-
-// Test cases
-console.log(countIslands([
-    ["L","L","L","L","W"],
-    ["L","L","W","L","W"],
-    ["L","L","W","W","W"],
-    ["W","W","W","W","W"],
-])); // Output: 1
-
-console.log(countIslands([
-    ["L","L","W","W","W"],
-    ["L","L","W","W","W"],
-    ["W","W","L","W","W"],
-    ["W","W","W","L","L"],
-])); // Output: 3
-
-
-  
+}  
 
 };
 
