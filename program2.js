@@ -3,7 +3,6 @@ const decodeTheRing = function (s, p) {
       
       if (sIndex === s.length && pIndex === p.length) return true;
 
-      // If we've reached the end of the pattern but still have characters in the string
       if (pIndex === p.length) return false;
 
       // Handle '*' wildcard
