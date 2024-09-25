@@ -9,7 +9,6 @@ const decodeTheRing = function (s, p) {
          
           if (match(sIndex, pIndex + 1)) return true;
 
-          // Try matching '*' with one or more characters (move string index)
           while (sIndex < s.length) {
               if (match(sIndex + 1, pIndex)) return true; // Match '*' with current character
               sIndex++;
