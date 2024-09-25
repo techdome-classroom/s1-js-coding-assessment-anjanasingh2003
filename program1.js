@@ -13,10 +13,10 @@ const getTotalIsles = function (grid) {
 
       visited[r][c] = true;
 
-      dfs(r + 1, c); // Down
-      dfs(r - 1, c); // Up
-      dfs(r, c + 1); // Right
-      dfs(r, c - 1); // Left
+      dfs(r + 1, c); 
+      dfs(r - 1, c); 
+      dfs(r, c + 1); 
+      dfs(r, c - 1);
   };
 
   let islandCount = 0;
