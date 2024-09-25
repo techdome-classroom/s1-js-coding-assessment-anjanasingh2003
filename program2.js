@@ -1,6 +1,6 @@
 const decodeTheRing = function (s, p) {
   const match = (sIndex, pIndex) => {
-      // If we've reached the end of both strings, it's a match
+      
       if (sIndex === s.length && pIndex === p.length) return true;
 
       // If we've reached the end of the pattern but still have characters in the string
